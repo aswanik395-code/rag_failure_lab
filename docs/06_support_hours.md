@@ -1,0 +1,2 @@
+NovaCart Customer Support Hours
+Phone support is available Monday to Friday, 9 AM to 6 PM Eastern time. Live chat is available every day from 8 AM to 10 PM Eastern time. Email support replies within 24 to 48 hours. Plus members get 24/7 chat support. During public holidays, phone support is closed and chat hours may be reduced. For urgent order problems, use live chat rather than email.

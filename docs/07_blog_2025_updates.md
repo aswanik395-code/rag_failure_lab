@@ -1,0 +1,2 @@
+Blog: Big Changes at NovaCart for 2025
+We are making several updates starting January 2025. NovaCart Plus is moving to $12.99 per month or $119 per year; existing members keep their current price until their next renewal. Express shipping now costs $14.99 to reflect higher carrier rates. We are also expanding phone support: it will now run Monday to Saturday, 8 AM to 8 PM Eastern time. Standard shipping and return policies are unchanged. Thanks for shopping with us!

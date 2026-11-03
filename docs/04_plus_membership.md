@@ -1,0 +1,2 @@
+NovaCart Plus Membership
+NovaCart Plus costs $9.99 per month or $89 per year. Members get free express shipping on all orders, an extended 60-day return window, early access to sales, and 24/7 chat support. Plus members also receive an extended 2-year warranty on NovaCart-branded electronics. Membership renews automatically and can be cancelled at any time from the account settings page. Cancelling takes effect at the end of the current billing period, and no partial refunds are given.

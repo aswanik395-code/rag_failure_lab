@@ -1,0 +1,2 @@
+NovaCart Warranty Policy
+NovaCart-branded electronics include a 1-year limited warranty that covers manufacturing defects. Accidental damage, water damage, and normal wear and tear are not covered. Products from third-party brands are covered only by the manufacturer's own warranty, and NovaCart does not extend or replace it. To make a claim, contact support with your order number and photos of the defect. Approved claims are repaired or replaced at NovaCart's discretion, usually within 10 business days.

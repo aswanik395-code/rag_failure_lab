@@ -1,0 +1,159 @@
+# Trace: bigchunks
+Config: `{'tag': 'bigchunks', 'chunk_size': 120, 'overlap': 20, 'top_k': 3, 'prompt': 'strict'}`
+
+## T1 [supported] Do NovaCart gift cards expire?
+**Expected:** No, they never expire and have no fees.
+
+**Retrieved:**
+- `08_gift_cards.md#0` (score 0.7923): NovaCart Gift Cards NovaCart gift cards never expire and have no fees. Gift cards can be used on any product but cannot be used to purchase a Plus membership. Gift cards are non-refundable and cannot be exchanged for cash. If an item bought with a gift card is returned, the refund is issued as store credit rather than to a card. Lost gift cards cannot be replaced unless the original receipt is provided. Gift card balances can be checked on the account page or through chat support.
+- `01_return_policy_2024.md#0` (score 0.4463): NovaCart Return Policy (last updated March 2024) NovaCart accepts returns within 30 days of delivery. Items must be unused and in their original packaging. Refunds are issued to the original payment method within 5-7 business days after the returned item is received at our warehouse. Electronics have a shorter return window of 15 days and must include all accessories. Return shipping is free for defective or damaged items. For all other returns, the customer pays a flat $6.99 return shipping fee, which is deducted from the refund.
+- `04_plus_membership.md#0` (score 0.4415): NovaCart Plus Membership NovaCart Plus costs $9.99 per month or $89 per year. Members get free express shipping on all orders, an extended 60-day return window, early access to sales, and 24/7 chat support. Plus members also receive an extended 2-year warranty on NovaCart-branded electronics. Membership renews automatically and can be cancelled at any time from the account settings page. Cancelling takes effect at the end of the current billing period, and no partial refunds are given.
+
+**Answer:** No, NovaCart gift cards never expire. [source: 08_gift_cards.md]
+
+_retrieval_hit=True abstained=False flagged_conflict=False_
+
+## T2 [supported] Is the warranty on third-party brand products handled by NovaCart?
+**Expected:** No, only the manufacturer's warranty applies.
+
+**Retrieved:**
+- `05_warranty_policy.md#0` (score 0.7686): NovaCart Warranty Policy NovaCart-branded electronics include a 1-year limited warranty that covers manufacturing defects. Accidental damage, water damage, and normal wear and tear are not covered. Products from third-party brands are covered only by the manufacturer's own warranty, and NovaCart does not extend or replace it. To make a claim, contact support with your order number and photos of the defect. Approved claims are repaired or replaced at NovaCart's discretion, usually within 10 business days.
+- `01_return_policy_2024.md#0` (score 0.5486): NovaCart Return Policy (last updated March 2024) NovaCart accepts returns within 30 days of delivery. Items must be unused and in their original packaging. Refunds are issued to the original payment method within 5-7 business days after the returned item is received at our warehouse. Electronics have a shorter return window of 15 days and must include all accessories. Return shipping is free for defective or damaged items. For all other returns, the customer pays a flat $6.99 return shipping fee, which is deducted from the refund.
+- `04_plus_membership.md#0` (score 0.5012): NovaCart Plus Membership NovaCart Plus costs $9.99 per month or $89 per year. Members get free express shipping on all orders, an extended 60-day return window, early access to sales, and 24/7 chat support. Plus members also receive an extended 2-year warranty on NovaCart-branded electronics. Membership renews automatically and can be cancelled at any time from the account settings page. Cancelling takes effect at the end of the current billing period, and no partial refunds are given.
+
+**Answer:** No. NovaCart’s warranty only covers NovaCart‑branded electronics; third‑party brand products are covered solely by the manufacturer’s own warranty, and NovaCart does not extend or replace it. [source: 05_warranty_policy.md]
+
+_retrieval_hit=True abstained=False flagged_conflict=False_
+
+## T3 [supported] What is the cutoff time for same-day shipping?
+**Expected:** Orders before 2 PM Eastern ship same day.
+
+**Retrieved:**
+- `03_shipping_policy.md#0` (score 0.5033): NovaCart Shipping Policy Standard shipping takes 5-7 business days and is free on orders over $50; otherwise it costs $4.99. Express shipping takes 2 business days and costs $12.99. Orders placed before 2 PM Eastern time ship the same day; orders placed after 2 PM ship the next business day. Express shipping is not available to PO boxes. We currently ship internationally to 20 countries, with delivery taking 10-15 business days. Customers are responsible for any import duties and taxes. Tracking numbers are emailed once the order ships.
+- `02_faq_returns_2022.md#0` (score 0.3263): NovaCart Help Center FAQ - Returns (archived 2022) Q: How long do I have to return an item? A: You can return any item within 14 days of delivery. Q: How long do refunds take? A: Refunds are processed within 10 business days. Q: Who pays for return shipping? A: The customer always pays return shipping, no exceptions. Q: Can I return opened items? A: Opened items cannot be returned unless they are defective. Please contact support if you have questions about your return.
+- `06_support_hours.md#0` (score 0.3258): NovaCart Customer Support Hours Phone support is available Monday to Friday, 9 AM to 6 PM Eastern time. Live chat is available every day from 8 AM to 10 PM Eastern time. Email support replies within 24 to 48 hours. Plus members get 24/7 chat support. During public holidays, phone support is closed and chat hours may be reduced. For urgent order problems, use live chat rather than email.
+
+**Answer:** The cutoff time for same‑day shipping is **2 PM Eastern time**.  
+[source: 03_shipping_policy.md]
+
+_retrieval_hit=True abstained=False flagged_conflict=False_
+
+## T4 [unsupported] Does NovaCart offer price matching against competitors?
+**Expected:** Abstain: not in the knowledge base.
+
+**Retrieved:**
+- `04_plus_membership.md#0` (score 0.5337): NovaCart Plus Membership NovaCart Plus costs $9.99 per month or $89 per year. Members get free express shipping on all orders, an extended 60-day return window, early access to sales, and 24/7 chat support. Plus members also receive an extended 2-year warranty on NovaCart-branded electronics. Membership renews automatically and can be cancelled at any time from the account settings page. Cancelling takes effect at the end of the current billing period, and no partial refunds are given.
+- `07_blog_2025_updates.md#0` (score 0.5292): Blog: Big Changes at NovaCart for 2025 We are making several updates starting January 2025. NovaCart Plus is moving to $12.99 per month or $119 per year; existing members keep their current price until their next renewal. Express shipping now costs $14.99 to reflect higher carrier rates. We are also expanding phone support: it will now run Monday to Saturday, 8 AM to 8 PM Eastern time. Standard shipping and return policies are unchanged. Thanks for shopping with us!
+- `03_shipping_policy.md#0` (score 0.429): NovaCart Shipping Policy Standard shipping takes 5-7 business days and is free on orders over $50; otherwise it costs $4.99. Express shipping takes 2 business days and costs $12.99. Orders placed before 2 PM Eastern time ship the same day; orders placed after 2 PM ship the next business day. Express shipping is not available to PO boxes. We currently ship internationally to 20 countries, with delivery taking 10-15 business days. Customers are responsible for any import duties and taxes. Tracking numbers are emailed once the order ships.
+
+**Answer:** I don't know based on the provided documents.
+
+_retrieval_hit=None abstained=True flagged_conflict=False_
+
+## T5 [unsupported] Who is the CEO of NovaCart?
+**Expected:** Abstain: not in the knowledge base.
+
+**Retrieved:**
+- `06_support_hours.md#0` (score 0.4092): NovaCart Customer Support Hours Phone support is available Monday to Friday, 9 AM to 6 PM Eastern time. Live chat is available every day from 8 AM to 10 PM Eastern time. Email support replies within 24 to 48 hours. Plus members get 24/7 chat support. During public holidays, phone support is closed and chat hours may be reduced. For urgent order problems, use live chat rather than email.
+- `04_plus_membership.md#0` (score 0.387): NovaCart Plus Membership NovaCart Plus costs $9.99 per month or $89 per year. Members get free express shipping on all orders, an extended 60-day return window, early access to sales, and 24/7 chat support. Plus members also receive an extended 2-year warranty on NovaCart-branded electronics. Membership renews automatically and can be cancelled at any time from the account settings page. Cancelling takes effect at the end of the current billing period, and no partial refunds are given.
+- `07_blog_2025_updates.md#0` (score 0.3799): Blog: Big Changes at NovaCart for 2025 We are making several updates starting January 2025. NovaCart Plus is moving to $12.99 per month or $119 per year; existing members keep their current price until their next renewal. Express shipping now costs $14.99 to reflect higher carrier rates. We are also expanding phone support: it will now run Monday to Saturday, 8 AM to 8 PM Eastern time. Standard shipping and return policies are unchanged. Thanks for shopping with us!
+
+**Answer:** I don't know based on the provided documents.
+
+_retrieval_hit=None abstained=True flagged_conflict=False_
+
+## T6 [ambiguous] How long do I have to return it?
+**Expected:** Should clarify: depends on item type (electronics 15d), standard 30d, Plus 60d.
+
+**Retrieved:**
+- `02_faq_returns_2022.md#0` (score 0.52): NovaCart Help Center FAQ - Returns (archived 2022) Q: How long do I have to return an item? A: You can return any item within 14 days of delivery. Q: How long do refunds take? A: Refunds are processed within 10 business days. Q: Who pays for return shipping? A: The customer always pays return shipping, no exceptions. Q: Can I return opened items? A: Opened items cannot be returned unless they are defective. Please contact support if you have questions about your return.
+- `01_return_policy_2024.md#0` (score 0.5153): NovaCart Return Policy (last updated March 2024) NovaCart accepts returns within 30 days of delivery. Items must be unused and in their original packaging. Refunds are issued to the original payment method within 5-7 business days after the returned item is received at our warehouse. Electronics have a shorter return window of 15 days and must include all accessories. Return shipping is free for defective or damaged items. For all other returns, the customer pays a flat $6.99 return shipping fee, which is deducted from the refund.
+- `05_warranty_policy.md#0` (score 0.3875): NovaCart Warranty Policy NovaCart-branded electronics include a 1-year limited warranty that covers manufacturing defects. Accidental damage, water damage, and normal wear and tear are not covered. Products from third-party brands are covered only by the manufacturer's own warranty, and NovaCart does not extend or replace it. To make a claim, contact support with your order number and photos of the defect. Approved claims are repaired or replaced at NovaCart's discretion, usually within 10 business days.
+
+**Answer:** There is conflicting information in the documents:
+
+* **02_faq_returns_2022.md** states that items can be returned within **14 days** of delivery.  
+* **01_return_policy_2024.md** states that items can be returned within **30 days** of delivery (with a shorter 15‑day window for electronics).  
+
+These two sources provide different return windows.
+
+_retrieval_hit=False abstained=False flagged_conflict=True_
+
+## T7 [ambiguous] How much does it cost?
+**Expected:** Should ask what 'it' refers to, not guess.
+
+**Retrieved:**
+- `07_blog_2025_updates.md#0` (score 0.4106): Blog: Big Changes at NovaCart for 2025 We are making several updates starting January 2025. NovaCart Plus is moving to $12.99 per month or $119 per year; existing members keep their current price until their next renewal. Express shipping now costs $14.99 to reflect higher carrier rates. We are also expanding phone support: it will now run Monday to Saturday, 8 AM to 8 PM Eastern time. Standard shipping and return policies are unchanged. Thanks for shopping with us!
+- `04_plus_membership.md#0` (score 0.3615): NovaCart Plus Membership NovaCart Plus costs $9.99 per month or $89 per year. Members get free express shipping on all orders, an extended 60-day return window, early access to sales, and 24/7 chat support. Plus members also receive an extended 2-year warranty on NovaCart-branded electronics. Membership renews automatically and can be cancelled at any time from the account settings page. Cancelling takes effect at the end of the current billing period, and no partial refunds are given.
+- `03_shipping_policy.md#0` (score 0.2851): NovaCart Shipping Policy Standard shipping takes 5-7 business days and is free on orders over $50; otherwise it costs $4.99. Express shipping takes 2 business days and costs $12.99. Orders placed before 2 PM Eastern time ship the same day; orders placed after 2 PM ship the next business day. Express shipping is not available to PO boxes. We currently ship internationally to 20 countries, with delivery taking 10-15 business days. Customers are responsible for any import duties and taxes. Tracking numbers are emailed once the order ships.
+
+**Answer:** There are conflicting prices in the documents:
+
+* **NovaCart Plus membership**  
+  * 07_blog_2025_updates.md says it will move to **$12.99 per month or $119 per year** [source: 07_blog_2025_updates.md].  
+  * 04_plus_membership.md lists the current price as **$9.99 per month or $89 per year** [source: 04_plus_membership.md].
+
+* **Express shipping**  
+  * 07_blog_2025_updates.md states it will cost **$14.99** [source: 07_blog_2025_updates.md].  
+  * 03_shipping_policy.md lists the cost as **$12.99** [source: 03_shipping_policy.md].
+
+Because the documents provide different figures for the same items, the exact cost cannot be determined from the provided information.
+
+_retrieval_hit=None abstained=False flagged_conflict=True_
+
+## T8 [conflicting] How many days do I have to return a regular item?
+**Expected:** 30 days (2024 policy); 2022 FAQ says 14 and is outdated. Ideal: flag the conflict.
+
+**Retrieved:**
+- `02_faq_returns_2022.md#0` (score 0.6374): NovaCart Help Center FAQ - Returns (archived 2022) Q: How long do I have to return an item? A: You can return any item within 14 days of delivery. Q: How long do refunds take? A: Refunds are processed within 10 business days. Q: Who pays for return shipping? A: The customer always pays return shipping, no exceptions. Q: Can I return opened items? A: Opened items cannot be returned unless they are defective. Please contact support if you have questions about your return.
+- `01_return_policy_2024.md#0` (score 0.5711): NovaCart Return Policy (last updated March 2024) NovaCart accepts returns within 30 days of delivery. Items must be unused and in their original packaging. Refunds are issued to the original payment method within 5-7 business days after the returned item is received at our warehouse. Electronics have a shorter return window of 15 days and must include all accessories. Return shipping is free for defective or damaged items. For all other returns, the customer pays a flat $6.99 return shipping fee, which is deducted from the refund.
+- `05_warranty_policy.md#0` (score 0.3454): NovaCart Warranty Policy NovaCart-branded electronics include a 1-year limited warranty that covers manufacturing defects. Accidental damage, water damage, and normal wear and tear are not covered. Products from third-party brands are covered only by the manufacturer's own warranty, and NovaCart does not extend or replace it. To make a claim, contact support with your order number and photos of the defect. Approved claims are repaired or replaced at NovaCart's discretion, usually within 10 business days.
+
+**Answer:** There is conflicting information in the documents: the 2022 FAQ states that you can return any item within **14 days** of delivery [source: 02_faq_returns_2022.md], while the 2024 return policy says that NovaCart accepts returns within **30 days** of delivery for regular items (with a shorter 15‑day window for electronics) [source: 01_return_policy_2024.md].
+
+_retrieval_hit=True abstained=False flagged_conflict=True_
+
+## T9 [conflicting] How much is NovaCart Plus per month?
+**Expected:** $12.99 now ($9.99 old/grandfathered until renewal). Ideal: mention both.
+
+**Retrieved:**
+- `04_plus_membership.md#0` (score 0.7352): NovaCart Plus Membership NovaCart Plus costs $9.99 per month or $89 per year. Members get free express shipping on all orders, an extended 60-day return window, early access to sales, and 24/7 chat support. Plus members also receive an extended 2-year warranty on NovaCart-branded electronics. Membership renews automatically and can be cancelled at any time from the account settings page. Cancelling takes effect at the end of the current billing period, and no partial refunds are given.
+- `07_blog_2025_updates.md#0` (score 0.6737): Blog: Big Changes at NovaCart for 2025 We are making several updates starting January 2025. NovaCart Plus is moving to $12.99 per month or $119 per year; existing members keep their current price until their next renewal. Express shipping now costs $14.99 to reflect higher carrier rates. We are also expanding phone support: it will now run Monday to Saturday, 8 AM to 8 PM Eastern time. Standard shipping and return policies are unchanged. Thanks for shopping with us!
+- `03_shipping_policy.md#0` (score 0.4643): NovaCart Shipping Policy Standard shipping takes 5-7 business days and is free on orders over $50; otherwise it costs $4.99. Express shipping takes 2 business days and costs $12.99. Orders placed before 2 PM Eastern time ship the same day; orders placed after 2 PM ship the next business day. Express shipping is not available to PO boxes. We currently ship internationally to 20 countries, with delivery taking 10-15 business days. Customers are responsible for any import duties and taxes. Tracking numbers are emailed once the order ships.
+
+**Answer:** The price is listed as **$9.99 per month** in the membership document [source: 04_plus_membership.md].  
+However, the 2025 update blog states that NovaCart Plus will move to **$12.99 per month** (or $119 per year) starting January 2025, with existing members keeping their current price until the next renewal [source: 07_blog_2025_updates.md].
+
+_retrieval_hit=True abstained=False flagged_conflict=True_
+
+## T10 [conflicting] What are the phone support hours?
+**Expected:** Mon-Sat 8AM-8PM ET per 2025 blog; older doc says Mon-Fri 9-6. Ideal: flag conflict.
+
+**Retrieved:**
+- `06_support_hours.md#0` (score 0.5276): NovaCart Customer Support Hours Phone support is available Monday to Friday, 9 AM to 6 PM Eastern time. Live chat is available every day from 8 AM to 10 PM Eastern time. Email support replies within 24 to 48 hours. Plus members get 24/7 chat support. During public holidays, phone support is closed and chat hours may be reduced. For urgent order problems, use live chat rather than email.
+- `07_blog_2025_updates.md#0` (score 0.2343): Blog: Big Changes at NovaCart for 2025 We are making several updates starting January 2025. NovaCart Plus is moving to $12.99 per month or $119 per year; existing members keep their current price until their next renewal. Express shipping now costs $14.99 to reflect higher carrier rates. We are also expanding phone support: it will now run Monday to Saturday, 8 AM to 8 PM Eastern time. Standard shipping and return policies are unchanged. Thanks for shopping with us!
+- `03_shipping_policy.md#0` (score 0.2075): NovaCart Shipping Policy Standard shipping takes 5-7 business days and is free on orders over $50; otherwise it costs $4.99. Express shipping takes 2 business days and costs $12.99. Orders placed before 2 PM Eastern time ship the same day; orders placed after 2 PM ship the next business day. Express shipping is not available to PO boxes. We currently ship internationally to 20 countries, with delivery taking 10-15 business days. Customers are responsible for any import duties and taxes. Tracking numbers are emailed once the order ships.
+
+**Answer:** The phone support hours are listed differently in two documents:
+
+- **06_support_hours.md**: “Phone support is available Monday to Friday, 9 AM to 6 PM Eastern time.” [source: 06_support_hours.md]  
+- **07_blog_2025_updates.md**: “We are expanding phone support: it will now run Monday to Saturday, 8 AM to 8 PM Eastern time.” [source: 07_blog_2025_updates.md]  
+
+These two sources conflict regarding the days and times of phone support.
+
+_retrieval_hit=True abstained=False flagged_conflict=True_
+
+## T11 [conflicting] How long do refunds take after I return something?
+**Expected:** 5-7 business days (2024); 10 days (2022 FAQ, outdated).
+
+**Retrieved:**
+- `02_faq_returns_2022.md#0` (score 0.6703): NovaCart Help Center FAQ - Returns (archived 2022) Q: How long do I have to return an item? A: You can return any item within 14 days of delivery. Q: How long do refunds take? A: Refunds are processed within 10 business days. Q: Who pays for return shipping? A: The customer always pays return shipping, no exceptions. Q: Can I return opened items? A: Opened items cannot be returned unless they are defective. Please contact support if you have questions about your return.
+- `01_return_policy_2024.md#0` (score 0.6238): NovaCart Return Policy (last updated March 2024) NovaCart accepts returns within 30 days of delivery. Items must be unused and in their original packaging. Refunds are issued to the original payment method within 5-7 business days after the returned item is received at our warehouse. Electronics have a shorter return window of 15 days and must include all accessories. Return shipping is free for defective or damaged items. For all other returns, the customer pays a flat $6.99 return shipping fee, which is deducted from the refund.
+- `08_gift_cards.md#0` (score 0.239): NovaCart Gift Cards NovaCart gift cards never expire and have no fees. Gift cards can be used on any product but cannot be used to purchase a Plus membership. Gift cards are non-refundable and cannot be exchanged for cash. If an item bought with a gift card is returned, the refund is issued as store credit rather than to a card. Lost gift cards cannot be replaced unless the original receipt is provided. Gift card balances can be checked on the account page or through chat support.
+
+**Answer:** The documents give two different timeframes:
+
+* The 2022 FAQ states that refunds are processed within **10 business days** after a return is initiated. [source: 02_faq_returns_2022.md]  
+* The 2024 return policy says refunds are issued to the original payment method within **5‑7 business days** after the returned item is received at the warehouse. [source: 01_return_policy_2024.md]
+
+_retrieval_hit=True abstained=False flagged_conflict=True_

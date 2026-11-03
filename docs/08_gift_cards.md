@@ -1,0 +1,2 @@
+NovaCart Gift Cards
+NovaCart gift cards never expire and have no fees. Gift cards can be used on any product but cannot be used to purchase a Plus membership. Gift cards are non-refundable and cannot be exchanged for cash. If an item bought with a gift card is returned, the refund is issued as store credit rather than to a card. Lost gift cards cannot be replaced unless the original receipt is provided. Gift card balances can be checked on the account page or through chat support.

@@ -1,0 +1,2 @@
+NovaCart Help Center FAQ - Returns (archived 2022)
+Q: How long do I have to return an item? A: You can return any item within 14 days of delivery. Q: How long do refunds take? A: Refunds are processed within 10 business days. Q: Who pays for return shipping? A: The customer always pays return shipping, no exceptions. Q: Can I return opened items? A: Opened items cannot be returned unless they are defective. Please contact support if you have questions about your return.

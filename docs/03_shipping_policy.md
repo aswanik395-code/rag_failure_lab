@@ -1,0 +1,2 @@
+NovaCart Shipping Policy
+Standard shipping takes 5-7 business days and is free on orders over $50; otherwise it costs $4.99. Express shipping takes 2 business days and costs $12.99. Orders placed before 2 PM Eastern time ship the same day; orders placed after 2 PM ship the next business day. Express shipping is not available to PO boxes. We currently ship internationally to 20 countries, with delivery taking 10-15 business days. Customers are responsible for any import duties and taxes. Tracking numbers are emailed once the order ships.

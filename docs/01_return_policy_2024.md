@@ -1,0 +1,2 @@
+NovaCart Return Policy (last updated March 2024)
+NovaCart accepts returns within 30 days of delivery. Items must be unused and in their original packaging. Refunds are issued to the original payment method within 5-7 business days after the returned item is received at our warehouse. Electronics have a shorter return window of 15 days and must include all accessories. Return shipping is free for defective or damaged items. For all other returns, the customer pays a flat $6.99 return shipping fee, which is deducted from the refund.

@@ -1,0 +1,32 @@
+# category: supported | unsupported | ambiguous | conflicting
+# gold_sources: docs that SHOULD be retrieved (empty for unsupported)
+# expected: what a correct answer looks like (used for your manual grading)
+TEST_CASES = [
+ {"id": "T1", "category": "supported", "question": "Do NovaCart gift cards expire?",
+  "gold_sources": ["08_gift_cards.md"], "expected": "No, they never expire and have no fees."},
+ {"id": "T2", "category": "supported", "question": "Is the warranty on third-party brand products handled by NovaCart?",
+  "gold_sources": ["05_warranty_policy.md"], "expected": "No, only the manufacturer's warranty applies."},
+ {"id": "T3", "category": "supported", "question": "What is the cutoff time for same-day shipping?",
+  "gold_sources": ["03_shipping_policy.md"], "expected": "Orders before 2 PM Eastern ship same day."},
+ {"id": "T4", "category": "unsupported", "question": "Does NovaCart offer price matching against competitors?",
+  "gold_sources": [], "expected": "Abstain: not in the knowledge base."},
+ {"id": "T5", "category": "unsupported", "question": "Who is the CEO of NovaCart?",
+  "gold_sources": [], "expected": "Abstain: not in the knowledge base."},
+ {"id": "T6", "category": "ambiguous", "question": "How long do I have to return it?",
+  "gold_sources": ["01_return_policy_2024.md", "04_plus_membership.md"],
+  "expected": "Should clarify: depends on item type (electronics 15d), standard 30d, Plus 60d."},
+ {"id": "T7", "category": "ambiguous", "question": "How much does it cost?",
+  "gold_sources": [], "expected": "Should ask what 'it' refers to, not guess."},
+ {"id": "T8", "category": "conflicting", "question": "How many days do I have to return a regular item?",
+  "gold_sources": ["01_return_policy_2024.md", "02_faq_returns_2022.md"],
+  "expected": "30 days (2024 policy); 2022 FAQ says 14 and is outdated. Ideal: flag the conflict."},
+ {"id": "T9", "category": "conflicting", "question": "How much is NovaCart Plus per month?",
+  "gold_sources": ["04_plus_membership.md", "07_blog_2025_updates.md"],
+  "expected": "$12.99 now ($9.99 old/grandfathered until renewal). Ideal: mention both."},
+ {"id": "T10", "category": "conflicting", "question": "What are the phone support hours?",
+  "gold_sources": ["06_support_hours.md", "07_blog_2025_updates.md"],
+  "expected": "Mon-Sat 8AM-8PM ET per 2025 blog; older doc says Mon-Fri 9-6. Ideal: flag conflict."},
+ {"id": "T11", "category": "conflicting", "question": "How long do refunds take after I return something?",
+  "gold_sources": ["01_return_policy_2024.md", "02_faq_returns_2022.md"],
+  "expected": "5-7 business days (2024); 10 days (2022 FAQ, outdated)."},
+]
