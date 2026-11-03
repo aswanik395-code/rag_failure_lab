@@ -24,7 +24,7 @@
 | bigchunks | same as baseline | same | T6 miss persists | same as baseline |
 | allcontext | same | same | T6 correct facts (14/30/15/60) | same |
 | strict_v2 (k=3) | correct | abstained | T6: confident "30 days", Plus doc still missing; T7: asks clarifying question | prefers newer source (T9: $12.99 current, $9.99 earlier) |
-| strict_v2 + all docs | correct | abstained | T6: asks Plus/electronics clarification; T7: asks clarification | prefers newer value; T9 omits older/grandfathered price |
+| strict_v2 + all docs | correct | abstained | T6: asks Plus/electronics clarification; T7: asks clarification | prefers newer value and mentions the older one (T8, T10, T11); T9 omits the older price |
 
 Chunk size and top-k made no difference to any outcome. Only the prompt and (for T6) the full-context run did.
 
@@ -60,10 +60,15 @@ Chunk size and top-k made no difference to any outcome. Only the prompt and (for
 - **Root cause:** context contains no dates or priority signal and the naive prompt has no conflict instruction,
   so the model picks one value without telling the user older documents disagree. In the strict baseline runs the
   model lists both values but does not say which is current (e.g. T9).
+- **Naive answers pick different sources silently:** naive T10 gives only the newer hours (Mon-Sat 8-8) while naive T11
+  gives only the 2024 refund time (5-7 days), with no mention of the conflicting document in either case. Which source
+  wins varies between questions, so the behavior is unpredictable as well as invisible.
 - **Fix tried: `strict_v2`.** It tells the model to name each source, prefer the newer one, and mention the older
-  value. In strict2, T6 and T9 do this (T9: "$12.99 currently ... earlier rate was $9.99"). In strict2_all the
-  conflict flag was off for T9-T11; the answers appear to give the newer value without mentioning the older one
-  (see Failure 4), so the prompt does not always follow its own instruction.
+  value. This worked on T8, T10 and T11 in both strict2 and strict2_all (e.g. T10: "Phone support is now available
+  Mon-Sat 8-8 ... (Previously, it was Mon-Fri 9-6)"; T8: "The older 2022 policy allowed 14 days, but the 2024 return
+  policy supersedes it"). The one exception is T9 in strict2_all, which gave only $12.99 and omitted the older price
+  (see Failure 4). Note that the automatic conflict flag showed False for strict2_all T10 and T11 even though both
+  answers mention the older value, because the regex does not match words like "previously" or "for reference".
 
 ### Failure 4: T9, outdated value labeled "current" (context injection: missing dates)
 - **Question:** "How much is NovaCart Plus per month?"
@@ -108,7 +113,7 @@ Chunk size and top-k made no difference to any outcome. Only the prompt and (for
 | bigchunks | 120-word chunks (8 chunks) | no change; T6 gold doc still missing |
 | allcontext | all 8 docs in context | T6 answered correctly -> proves retrieval was the cause |
 | strict2 | `strict_v2` prompt (k=3) | T7 asks to clarify; T9 labels $12.99 as current; T6 still misses Plus doc and answers confidently |
-| strict2_all | `strict_v2` + all docs | T6 asks the right clarifying question; T7 clarifies; T9 drops older price |
+| strict2_all | `strict_v2` + all docs | T6 asks the right clarifying question; T7 clarifies; T8, T10, T11 give the newer value and mention the older; T9 drops the older price |
 
 ## 5. Lessons
 - Check retrieval before blaming the LLM: log chunk IDs and scores for every query.
